@@ -4,19 +4,23 @@
   "description": "A simple Puppeteer example using Reddit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha reddit-title-mocha.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/glesica/reddit-puppeteer.git"
+    "url": "git+ssh://git@github.com/um-software-testing/reddit-puppeteer.git"
   },
   "author": "George Lesica",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/glesica/reddit-puppeteer/issues"
+    "url": "https://github.com/um-software-testing/reddit-puppeteer/issues"
   },
-  "homepage": "https://github.com/glesica/reddit-puppeteer#readme",
+  "homepage": "https://github.com/um-software-testing/reddit-puppeteer#readme",
   "dependencies": {
     "puppeteer": "^1.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   }
 }
