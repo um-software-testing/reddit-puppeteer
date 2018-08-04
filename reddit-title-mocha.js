@@ -42,7 +42,12 @@ const fetchPageTitle = async (page, url) => {
            // itself.
            const title = await fetchPageTitle(page, 'https://old.reddit.com/r/programming');
 
-           // Assert that the title is what we expect it to be.
+           // Assert that the title is what we expect it to be. We're
+           // using the same assertion library we did in the
+           // reddit-title-should.js example. Note, however, that we don't
+           // have to catch the exception it might throw this time, that's
+           // because Mocha (the test framework) catches it for us and
+           // uses it to tell us which of our tests failed.
            should.equal(title, 'programming');
        });
     });
