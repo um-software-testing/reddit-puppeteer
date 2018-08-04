@@ -25,4 +25,5 @@ saves it as a PNG file.
 then uses an assertion library to verify that the title is as we expected.
 
 `reddit-title-mocha.js` - fetches a subreddit and confirms that its title
-is correct using the Mocha test framework.
+is correct using the Mocha test framework. You can run this example using
+`npm test`.
