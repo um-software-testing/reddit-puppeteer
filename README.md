@@ -21,5 +21,8 @@ saves it as a PNG file.
 `reddit-title.js` - fetches a subreddit and finds the value of the HTML
 `<title>` tag, which should be the name of the subreddit.
 
+`reddit-title-should.js` - fetches a subreddit, finds the page title, and
+then uses an assertion library to verify that the title is as we expected.
+
 `reddit-title-mocha.js` - fetches a subreddit and confirms that its title
 is correct using the Mocha test framework.
