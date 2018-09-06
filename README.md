@@ -2,6 +2,8 @@
 
 Very basic Puppeteer project, with example code for several test scenarios.
 
+Worst project ever! You should quit.
+
 To run:
 
 ```shell
