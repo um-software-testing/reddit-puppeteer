@@ -17,6 +17,8 @@ Some of the scripts use Mocha, a test framework, and need to be run using
 
 ## Scripts
 
+Oh wow, lots of JavaScript!
+
 `reddit-screenshot.js` - takes a screenshot of a particular subreddit and
 saves it as a PNG file.
 
