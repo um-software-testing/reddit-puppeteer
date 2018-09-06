@@ -21,6 +21,8 @@ Oh wow, lots of JavaScript!
 
 Such good spelling!
 
+These are many words and such, wow.
+
 `reddit-screenshot.js` - takes a screenshot of a particular subreddit and
 saves it as a PNG file.
 
