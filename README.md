@@ -2,6 +2,8 @@
 
 Very basic Puppeteer project, with example code for several test scenarios.
 
+Worst project ever! You should quit.
+
 To run:
 
 ```shell
@@ -14,6 +16,12 @@ Some of the scripts use Mocha, a test framework, and need to be run using
 `npm test` command.
 
 ## Scripts
+
+Oh wow, lots of JavaScript!
+
+Such good spelling!
+
+These are many words and such, wow.
 
 `reddit-screenshot.js` - takes a screenshot of a particular subreddit and
 saves it as a PNG file.
